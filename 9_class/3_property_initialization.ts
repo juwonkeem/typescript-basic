@@ -18,7 +18,7 @@ class Person {
 }
 
 class RouteStack{
-    stack!: string[];
+    stack!: string[];   // 무조건초기화
 
     constructor(){
         this.initialize();

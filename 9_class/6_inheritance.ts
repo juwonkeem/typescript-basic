@@ -36,6 +36,7 @@ codefactory.dance();
 ahri.dance();
 ahri.sing();
 
+// 자식은 부모타입이 될 수 있으나 부모는 자식타입이 될 수 없다.
 let person: Parent;
 person = codefactory;
 person = ahri;
